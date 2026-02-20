@@ -238,7 +238,8 @@
     <script>
         class ChatWidget {
             constructor() {
-                this.apiEndpoint = 'http://localhost:3000/chat';
+                // Use relative URL for both local and Vercel deployment
+                this.apiEndpoint = '/chat';
                 this.chatMessages = document.getElementById('chatMessages');
                 this.messageInput = document.getElementById('messageInput');
                 this.sendButton = document.getElementById('sendButton');
