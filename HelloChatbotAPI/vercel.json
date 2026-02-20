@@ -4,10 +4,6 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "chat.html",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
